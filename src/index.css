@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.club-box{
+  width: 300px;
+  min-height: 500px;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 3px 7px 5px rgba(0,0,0,0.28); 
+box-shadow: 3px 3px 7px 5px rgba(0,0,0,0.28);
+}
+
+.players-list{
+  list-style: none;
+  align-items: center;
+}
+
+li{
+  padding: 1rem;
+  text-align: left;
+  cursor: pointer;
+
+}
+
